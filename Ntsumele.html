@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ntsumele Transportation</title>
+  <link rel="stylesheet" href="Style.css" /> 
+</head>
+<body>
+  <header>
+    <div class="logo"></div>  
+
+    <h1>Transport Your Goods Safely</h1>
+    <nav>
+      <a href="#services">Our Services</a>
+      <a href="#book">Book Transport</a>
+      <a href="#contact">Contact Us</a>
+    </nav> 
+
+  </header>
+
+  <div class="main-header">
+    <h1>Ntsumele Transportation</h1>
+    <p>Your trusted partner in fast, safe, and reliable transportation services across South Africa.</p>
+  </div>
+
+  <!-- Our Services Section -->
+  <div id="services" class="section">
+    <h2>Our Services</h2>
+    <p>We specialize in fast, reliable, and affordable transport of goods across South Africa. 
+        Whether you're moving house, delivering commercial cargo, or transporting fragile items 
+        — we've got you covered. Our years of experience and turn around times has been the main 
+        contributions to our service Excellence!</p>
+    <h3>What we offer:</h3>
+    <ul>
+      <li>We transport all types of goods</li>
+      <li>We charge based on the size of goods</li>
+      <li>We offer residential and office relocations</li>
+      <li>We offer monthly trips from Gauteng to Limpopo.</li>
+    </ul>
+  </div>
+
+  <!-- Book Transport Form -->
+  <div id="book" class="container">
+    <h2>Book a Transport</h2>
+    <form action="https://formspree.io/f/xpwdyavl" method="POST" enctype="multipart/form-data" class="booking-form">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+  
+      <label for="departure">Place of Departure</label>
+      <input type="text" id="departure" name="departure" required>
+  
+      <label for="destination">Destination</label>
+      <input type="text" id="destination" name="destination" required>
+  
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required>
+  
+      <label for="notes">Additional Notes</label>
+      <textarea id="notes" name="notes" rows="4"></textarea>
+  
+      <button type="submit">Submit Request</button>
+    </form>
+  </div>
+  
+
+  <!-- Contact Us Section -->
+  <div id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>We're available to chat on all major platforms. Reach out any time:</p>
+    <div class="socials">
+      <a href="https://www.instagram.com/ntsumeletrading" class="btn instagram" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+      <a href="https://www.facebook.com/ntsumeletrading" class="btn facebook" target="_blank">
+        <i class="fab fa-facebook-f"></i> Facebook
+      </a>
+      <a href="https://wa.me/1234567890" class="btn whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+      <a href="mailto:info@ngobenitransport.co.za" class="btn email" target="_blank">
+        <i class="fas fa-envelope"></i> Email
+      </a>
+    </div>
+  </div>
+</body>
+</html>

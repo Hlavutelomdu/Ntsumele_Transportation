@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: url('background.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 20px; 
+  }
+
+  header {
+    background-color: rgba(0, 95, 179, 0.9); 
+    color: #fff;
+    padding: 0.001rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  nav {
+    margin-left: auto;
+  }
+  nav a {
+    margin-right: 2rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  /* Logo */
+  .logo {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    background-image: url('logo.jpeg');
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+  }
+  
+  /* Content Section Below Header */
+  .main-header {
+    text-align: center;
+    padding: 3rem 0;
+    color: #fff;
+    background-color: rgba(0, 0, 255, 0.2);
+    margin-top: 60px;
+  }
+  .main-header h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #fff;
+  }
+  .main-header p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: 400;
+    color: beige;
+  }
+  
+  /* Section Styling */
+  .section {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+   /* Book Section */
+  .container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+
+  .container {
+    margin-top: 120px; /* Adjust for header */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #007BFF;
+  }
+  label {
+    display: block;
+    margin-top: 1rem;
+    color: #0056b3;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #007BFF;
+    border-radius: 4px;
+  }
+  button {
+    margin-top: 1.5rem;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Contact Section */
+
+  #contact {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #contact {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #contact h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  #contact p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+
+  .socials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+  }
+
+  .btn i {
+    font-size: 1.2rem;
+  }
+
+  .instagram {
+    background-color: #e1306c;
+  }
+
+  .instagram:hover {
+    background-color: #c72c60;
+  }
+
+  .facebook {
+    background-color: #1877f2;
+  }
+
+  .facebook:hover {
+    background-color: #145dbf;
+  }
+
+  .whatsapp {
+    background-color: #25d366;
+  }
+
+  .whatsapp:hover {
+    background-color: #1ebe5d;
+  }
